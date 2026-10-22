@@ -1,0 +1,79 @@
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<div class="topbar">Peças únicas · quando vende, não volta · primeira compra? use <strong>GARIMPO10</strong></div>
+
+<header class="header">
+  <div class="wrap header__row">
+    <a class="logo" href="#inicio" aria-label="garimpo, página inicial">
+      <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8L3 12z" fill="var(--etiqueta)" stroke="var(--tinta)" stroke-width="1.8" stroke-linejoin="round"/><circle cx="7.5" cy="8" r="1.5" fill="var(--papel)" stroke="var(--tinta)" stroke-width="1.2"/></svg>
+      garimpo
+    </a>
+
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#novidades" data-nav="novidades">Novidades</a>
+      <a href="#roupas" data-nav="roupas">Roupas</a>
+      <a href="#casacos" data-nav="casacos">Casacos</a>
+      <a href="#acessorios" data-nav="acessorios">Acessórios</a>
+      <a href="#calcados" data-nav="calcados">Calçados</a>
+      <a href="#vintage" data-nav="vintage">Vintage</a>
+      <a href="#vender" data-nav="vender" class="nav__destaque">Vender peças</a>
+    </nav>
+
+    <div class="header__acoes">
+      <form class="busca" id="busca-form" role="search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <label class="sr-only" for="busca">Buscar peças</label>
+        <input id="busca" type="search" placeholder="Buscar peças…" autocomplete="off">
+      </form>
+      <a class="icon-btn" href="#favoritos" aria-label="Favoritos">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+        <span class="contador" id="cont-fav" hidden>0</span>
+      </a>
+      <a class="icon-btn" href="#sacola" id="link-sacola" aria-label="Sacola">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l1 14H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <span class="contador contador--azul" id="cont-sacola" hidden>0</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo" tabindex="-1"></main>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__marca">
+      <span class="logo logo--claro">garimpo</span>
+      <p>Brechó online de peças únicas, escolhidas uma a uma.</p>
+    </div>
+    <nav aria-label="Loja">
+      <span class="rotulo rotulo--amarelo">Loja</span>
+      <a href="#novidades">Novidades</a>
+      <a href="#roupas">Roupas</a>
+      <a href="#acessorios">Acessórios</a>
+      <a href="#vender">Vender peças</a>
+    </nav>
+    <nav aria-label="Ajuda">
+      <span class="rotulo rotulo--amarelo">Ajuda</span>
+      <a href="#ajuda">Como medimos as peças</a>
+      <a href="#ajuda">Envio e prazos</a>
+      <a href="#ajuda">Trocas e devoluções</a>
+    </nav>
+    <div>
+      <span class="rotulo rotulo--amarelo">Contato</span>
+      <span>@[seu.instagram]</span>
+      <span>[WhatsApp de atendimento]</span>
+      <span>[e-mail de contato]</span>
+    </div>
+  </div>
+  <div class="wrap footer__base">
+    <span>© 2026 garimpo · [Razão social · CNPJ]</span>
+    <span>Fotos de peças: Clothing Dataset (CC0)</span>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
